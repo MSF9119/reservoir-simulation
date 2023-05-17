@@ -21,15 +21,15 @@ We use an ANN model to predict the behavior of Oil Reservoirs based on some prov
 The dataset used contains 12 columns:
 
 *inputs
-**a**: permeability factor representing the permeability changes due to different production scenarios (INPUT
+**a**: permeability factor representing the permeability changes due to different production scenarios (INPUT)
 
 **Q**: oil production rate from the production well (INPUT)
 
-**INJ**: water injection rate of the injection wells at the corners of the reservoir
+**INJ**: water injection rate of the injection wells at the corners of the reservoir (INPUT)
 
-**m:** oil viscosity factor depending on the production scenario(INPUT)
+**m:** oil viscosity factor depending on the production scenario (INPUT)
 
-**b**: Interfacial tension factor relating to the surface phenomena occurring at water-oil confrontation(INPUT)
+**b**: Interfacial tension factor relating to the surface phenomena occurring at water-oil confrontation (INPUT)
 
 **D**: the angle perpendicular to the horizon plane that the production well has been drilled (INPUT)
 
@@ -99,5 +99,5 @@ UNDER DEVELOPMENT
 Function 1: So far, the code will display the performance metrics of the model and allow the user to enter all the input parameters and the app will then predict how an oil reservoir will behave (by providing its attributes) given the input conditions (it basically simulates the reservoir)
 
 Future functions:
-Function 2: Optimize reservoir parameters based on dependant conditions (how should my input material be for my reservoir to be optimized?)
-Function 3: Optimize input parameters based on desired reservoir conditions (example: which input material conditions to use to have an oil reservoir have a specific pressure)
+Function 2: Optimize reservoir parameters based on dependant conditions (how should my input factors be for my reservoir to be optimized?)
+Function 3: Optimize input parameters based on desired reservoir conditions (example: what input material conditions should be used to obtain a specific  reservoir fluid pressure?)
